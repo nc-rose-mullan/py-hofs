@@ -7,20 +7,4 @@ sessions = [
     {"game": "carcassonne", "player": "asha", "score": 1},
 ]
 
-def is_high_scorer(session, threshold):
-    return session["score"] > threshold
-
-high_scores_only = filter(lambda session: is_high_scorer(session, 10), sessions)
-
-def make_classifier(threshold):
-    def is_high_scorer(session) :
-        return session["score"] > threshold
-    return is_high_scorer
-
-classify_5 = make_classifier(5)
-classify_10 = make_classifier(10)
-
-only_high_scores = list(filter(classify_10, sessions))
-
-print(only_high_scores)
-print(only_high_scores)
+# Write a function that takes a session and a threshold and returns a boolean representing whether the player has a high score (greater than the threshold)
