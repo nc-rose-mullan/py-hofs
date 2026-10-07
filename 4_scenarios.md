@@ -1,4 +1,4 @@
-For each scenario: comprehension or map/filter, and **why**. The 'why' is what matters.
+For each scenario: comprehension or map/filter, and **why**.
 
 **Scenario 1:** You're loading a 2GB log file and need to extract the timestamps of all ERROR lines, then write them to another file.
 
