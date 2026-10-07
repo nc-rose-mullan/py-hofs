@@ -1,3 +1,5 @@
+# Example: Collect all of the Catan scores across all sessions
+
 sessions = [
     {"game": "Catan ", "player": "priya", "score": 6},
     {"game": "catan", "player": "priya", "score": 9},
