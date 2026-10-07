@@ -12,10 +12,9 @@ scores_a = [s["score"] for s in sessions if s["game"].strip().lower() == "catan"
 scores_b = map(lambda s: s["score"],
                filter(lambda s: s["game"].strip().lower() == "catan", sessions))
 
-print(type(scores_a))
-print(type(scores_b))
 
-print(sum(scores_b))
-print(sum(scores_b))
+# print(type(scores_a))
+# print(type(scores_b))
 
-scores_c = (s["score"] for s in sessions if s["game"].strip().lower() == "catan")
+# print(sum(scores_b))
+# print(sum(scores_b))
