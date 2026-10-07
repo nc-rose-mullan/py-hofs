@@ -1,4 +1,4 @@
-For each scenario: comprehension or map/filter, and **why**.
+For each scenario: comprehension(list) or map/filter(lazy iterator), and **why**.
 
 **Scenario 1:** You're loading a 2GB log file and need to extract the timestamps of all ERROR lines, then write them to another file.
 
