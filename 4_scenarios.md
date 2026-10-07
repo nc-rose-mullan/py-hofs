@@ -5,3 +5,5 @@ For each scenario: comprehension or map/filter, and **why**.
 **Scenario 2:** You're computing the total score across all sessions of catan, where the threshold for "counts as a win" is configurable per game.
 
 **Scenario 3:** You're displaying a leaderboard of the top 10 players by average score, on a dashboard.
+
+**Scenario 4:** At the end of the game night, you're showing a catan summary card: the number of sessions played, the total score, the highest score and the lowest score.
